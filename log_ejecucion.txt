@@ -1,0 +1,50 @@
+2026-09-24 15:53:50,367 | INFO | === INICIO 01_extraccion_api ===
+2026-09-24 15:53:50,368 | INFO | Parametros congelados: FECHA_INICIO=2010-01-01 | FECHA_CORTE=2025-12-31
+2026-09-24 15:53:51,658 | INFO | BCRP PD31893DD | intento 1 | codigo HTTP: 200
+2026-09-24 15:53:51,678 | INFO | BCRP PD31893DD | filas descargadas: ~4175 | archivo: datos_crudos_bcrp_bono_10a_2024200523C.csv
+2026-09-24 15:53:53,295 | INFO | BCRP PD04709XD | intento 1 | codigo HTTP: 200
+2026-09-24 15:53:53,300 | INFO | BCRP PD04709XD | filas descargadas: ~4175 | archivo: datos_crudos_bcrp_embig_2024200523C.csv
+2026-09-24 15:53:55,097 | INFO | FRED DFF | intento 1 | codigo HTTP: 200
+2026-09-24 15:53:55,111 | INFO | FRED DFF | filas descargadas: 5844 | archivo: datos_crudos_fred_DFF_2024200523C.csv
+2026-09-24 15:53:56,650 | INFO | FRED DGS2 | intento 1 | codigo HTTP: 200
+2026-09-24 15:53:56,657 | INFO | FRED DGS2 | filas descargadas: 4174 | archivo: datos_crudos_fred_DGS2_2024200523C.csv
+2026-09-24 15:53:58,271 | INFO | FRED DGS10 | intento 1 | codigo HTTP: 200
+2026-09-24 15:53:58,278 | INFO | FRED DGS10 | filas descargadas: 4174 | archivo: datos_crudos_fred_DGS10_2024200523C.csv
+2026-09-24 15:53:59,279 | INFO | === FIN 01_extraccion_api ===
+2026-09-24 15:59:36,009 | INFO | === INICIO 03_limpieza_datos ===
+2026-09-24 15:59:36,009 | INFO | Parametros congelados: FECHA_INICIO=2010-01-01 | FECHA_CORTE=2025-12-31
+2026-09-24 15:59:36,110 | INFO | bono_pe_10a_soles: 4174 filas leidas del crudo BCRP
+2026-09-24 15:59:36,194 | INFO | embig_peru_pbs: 4174 filas leidas del crudo BCRP
+2026-09-24 15:59:36,210 | ERROR | Error en 03_limpieza_datos: ValueError: No se encontró una columna de fecha en datos_crudos_fred_DFF_2024200523C.csv. Columnas disponibles: ['period_start_date', 'DFF', 'realtime_start_date', 'realtime_end_date']
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\ROMERO-RAM-N-MIRIAN-FINANZAS-I\codigo\03_limpieza_datos.py", line 677, in <module>
+    fred = leer_fred_crudo(
+        SERIES_FRED
+    )
+  File "C:\Users\Lenovo\Desktop\ROMERO-RAM-N-MIRIAN-FINANZAS-I\codigo\03_limpieza_datos.py", line 503, in leer_fred_crudo
+    serie = leer_fred_csv(
+        ruta_fred(codigo),
+        codigo,
+        nombre,
+    )
+  File "C:\Users\Lenovo\Desktop\ROMERO-RAM-N-MIRIAN-FINANZAS-I\codigo\03_limpieza_datos.py", line 428, in leer_fred_csv
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No se encontró una columna de fecha en datos_crudos_fred_DFF_2024200523C.csv. Columnas disponibles: ['period_start_date', 'DFF', 'realtime_start_date', 'realtime_end_date']
+2026-09-24 16:06:15,617 | INFO | === INICIO 03_limpieza_datos ===
+2026-09-24 16:06:15,618 | INFO | Parametros congelados: FECHA_INICIO=2010-01-01 | FECHA_CORTE=2025-12-31
+2026-09-24 16:06:15,762 | INFO | bono_pe_10a_soles: 4174 filas leidas del crudo BCRP
+2026-09-24 16:06:15,854 | INFO | embig_peru_pbs: 4174 filas leidas del crudo BCRP
+2026-09-24 16:06:15,907 | INFO | tasa_fondos_federales (DFF): 5844 filas leidas del crudo FRED
+2026-09-24 16:06:15,955 | INFO | tesoro_2a (DGS2): 4174 filas leidas del crudo FRED
+2026-09-24 16:06:15,994 | INFO | tesoro_10a (DGS10): 4174 filas leidas del crudo FRED
+2026-09-24 16:06:16,178 | INFO | bono_pe_10a_soles: 200 dias sin dato | 36 posibles atipicos (marcados, no eliminados)
+2026-09-24 16:06:16,179 | INFO | embig_peru_pbs: 0 dias sin dato | 95 posibles atipicos (marcados, no eliminados)
+2026-09-24 16:06:16,179 | INFO | tasa_fondos_federales: 0 dias sin dato | 0 posibles atipicos (marcados, no eliminados)
+2026-09-24 16:06:16,179 | INFO | tesoro_2a: 173 dias sin dato | 0 posibles atipicos (marcados, no eliminados)
+2026-09-24 16:06:16,179 | INFO | tesoro_10a: 173 dias sin dato | 0 posibles atipicos (marcados, no eliminados)
+2026-09-24 16:06:16,190 | INFO | Filas antes: 4174 | descartadas: 336 | finales: 3838
+2026-09-24 16:06:16,235 | INFO | Base procesada guardada en: datos_procesados/datos_procesados_2024200523C.csv
+2026-09-24 16:06:16,235 | INFO | SHA-256 de datos_procesados_2024200523C.csv: 4cf558a2b2cdf19b87a56ce705b7de55a2aabcb3431ccbd04ec52ddfa8c28a6b
+2026-09-24 16:06:16,271 | INFO | === FIN 03_limpieza_datos ===

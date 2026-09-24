@@ -1,0 +1,11 @@
+.env
+__pycache__/
+logs/
+*.pyc
+.venv/
+venv/
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Thumbs.db

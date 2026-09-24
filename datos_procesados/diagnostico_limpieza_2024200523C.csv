@@ -1,0 +1,6 @@
+variable,dias_habiles,dias_con_dato,dias_sin_dato,posibles_atipicos,limite_inferior,limite_superior
+bono_pe_10a_soles,4174,3974,200,36,3.38,8.34
+embig_peru_pbs,4174,4174,0,95,82.0,250.0
+tasa_fondos_federales,4174,4174,0,0,-3.245,5.675
+tesoro_2a,4174,4001,173,0,-3.02,6.02
+tesoro_10a,4174,4001,173,0,-0.35,5.57
