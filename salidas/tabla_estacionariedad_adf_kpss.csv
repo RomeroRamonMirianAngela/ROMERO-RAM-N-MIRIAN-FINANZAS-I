@@ -1,0 +1,6 @@
+variable,adf_estadistico,adf_p_valor,kpss_estadistico,kpss_p_valor,conclusion_preliminar
+bono_pe_10a_soles_w,-2.5533,0.3441,5.7641,0.01,Posible raíz unitaria (revisar en primeras diferencias)
+embig_peru_pp_w,-4.4614,0.01,1.0158,0.01,Posible raíz unitaria (revisar en primeras diferencias)
+tasa_fondos_federales,-1.2633,0.8903,22.4345,0.01,Posible raíz unitaria (revisar en primeras diferencias)
+tesoro_2a,-1.6624,0.7213,22.3137,0.01,Posible raíz unitaria (revisar en primeras diferencias)
+tesoro_10a,-2.0324,0.5646,8.0753,0.01,Posible raíz unitaria (revisar en primeras diferencias)

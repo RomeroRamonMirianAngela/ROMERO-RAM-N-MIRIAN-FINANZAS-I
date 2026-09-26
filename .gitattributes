@@ -3,3 +3,4 @@
 *.txt text eol=lf
 *.md text eol=lf
 .gitignore text eol=lf
+*.R text eol=lf

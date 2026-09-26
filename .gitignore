@@ -9,3 +9,6 @@ venv/
 .Rproj.user/
 .DS_Store
 Thumbs.db
+# Archivos temporales generados durante pruebas de ejecución
+Rplots.pdf
+prueba_ejecucion.txt
