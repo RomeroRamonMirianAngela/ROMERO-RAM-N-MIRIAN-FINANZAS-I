@@ -48,3 +48,21 @@ ValueError: No se encontró una columna de fecha en datos_crudos_fred_DFF_202420
 2026-09-24 16:06:16,235 | INFO | Base procesada guardada en: datos_procesados/datos_procesados_2024200523C.csv
 2026-09-24 16:06:16,235 | INFO | SHA-256 de datos_procesados_2024200523C.csv: 4cf558a2b2cdf19b87a56ce705b7de55a2aabcb3431ccbd04ec52ddfa8c28a6b
 2026-09-24 16:06:16,271 | INFO | === FIN 03_limpieza_datos ===
+2026-09-27 21:44:17,681 | INFO | === INICIO 03_limpieza_datos ===
+2026-09-27 21:44:17,681 | INFO | Parametros congelados: FECHA_INICIO=2010-01-01 | FECHA_CORTE=2025-12-31
+2026-09-27 21:44:17,766 | INFO | bono_pe_10a_soles: 4174 filas leidas del crudo BCRP
+2026-09-27 21:44:17,834 | INFO | embig_peru_pbs: 4174 filas leidas del crudo BCRP
+2026-09-27 21:44:17,864 | INFO | tasa_fondos_federales (DFF): 5844 filas leidas del crudo FRED
+2026-09-27 21:44:17,887 | INFO | tesoro_2a (DGS2): 4174 filas leidas del crudo FRED
+2026-09-27 21:44:17,915 | INFO | tesoro_10a (DGS10): 4174 filas leidas del crudo FRED
+2026-09-27 21:44:18,124 | INFO | bono_pe_10a_soles: 200 dias sin dato | 36 posibles atipicos antes del tratamiento
+2026-09-27 21:44:18,124 | INFO | embig_peru_pbs: 0 dias sin dato | 95 posibles atipicos antes del tratamiento
+2026-09-27 21:44:18,125 | INFO | tasa_fondos_federales: 0 dias sin dato | 0 posibles atipicos antes del tratamiento
+2026-09-27 21:44:18,125 | INFO | tesoro_2a: 173 dias sin dato | 0 posibles atipicos antes del tratamiento
+2026-09-27 21:44:18,125 | INFO | tesoro_10a: 173 dias sin dato | 0 posibles atipicos antes del tratamiento
+2026-09-27 21:44:18,129 | INFO | Filas antes: 4174 | descartadas por faltantes: 336 | completas: 3838
+2026-09-27 21:44:18,157 | INFO | bono_pe_10a_soles: 35 atipicos IQR | 35 observaciones winsorizadas | limites=(3.38, 8.34)
+2026-09-27 21:44:18,157 | INFO | embig_peru_pp: 86 atipicos IQR | 86 observaciones winsorizadas | limites=(0.805, 2.525)
+2026-09-27 21:44:18,202 | INFO | Base procesada guardada en: datos_procesados/datos_procesados_2024200523C.csv
+2026-09-27 21:44:18,202 | INFO | SHA-256 de datos_procesados_2024200523C.csv: 4a05b888904d3b1b1627c1747dc1f78d59840c5d6ce64c0d97146b367077f0ac
+2026-09-27 21:44:18,242 | INFO | === FIN 03_limpieza_datos ===

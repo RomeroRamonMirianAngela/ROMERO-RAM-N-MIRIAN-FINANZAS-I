@@ -1,5 +1,5 @@
-variable,importancia_pct,variable_label
-embig_peru_pp_w,38.39,EMBIG Perú
-tesoro_10a,33.26,Tesoro EE. UU. 10 años
-tasa_fondos_federales,20.66,Tasa de fondos federales
-spread_tesoro2_fed,7.69,Spread Tesoro 2A - Fed
+variable,importancia_pct
+EMBIG Perú,38.39
+Tesoro EE. UU. 10 años,33.26
+Tasa de fondos federales,20.66
+Spread Tesoro 2A - Fed,7.69

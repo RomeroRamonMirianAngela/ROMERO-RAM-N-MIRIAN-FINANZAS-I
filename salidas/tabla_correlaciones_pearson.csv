@@ -1,6 +1,6 @@
-"","Bono soberano PE 10 años (%)","EMBIG Perú (p.p.)","Tasa de fondos federales (%)","Tesoro EE. UU. 2 años (%)","Tesoro EE. UU. 10 años (%)"
-"Bono soberano PE 10 años (%)",1,0.56,0.468,0.59,0.64
-"EMBIG Perú (p.p.)",0.56,1,-0.143,-0.059,-0.046
-"Tasa de fondos federales (%)",0.468,-0.143,1,0.96,0.756
-"Tesoro EE. UU. 2 años (%)",0.59,-0.059,0.96,1,0.801
-"Tesoro EE. UU. 10 años (%)",0.64,-0.046,0.756,0.801,1
+variable,Bono soberano PE 10 años (%),EMBIG Perú (p.p.),Tasa de fondos federales (%),Tesoro EE. UU. 2 años (%),Tesoro EE. UU. 10 años (%)
+Bono soberano PE 10 años (%),1,0.5603,0.4682,0.59,0.6402
+EMBIG Perú (p.p.),0.5603,1,-0.1425,-0.0591,-0.0458
+Tasa de fondos federales (%),0.4682,-0.1425,1,0.9596,0.7561
+Tesoro EE. UU. 2 años (%),0.59,-0.0591,0.9596,1,0.8015
+Tesoro EE. UU. 10 años (%),0.6402,-0.0458,0.7561,0.8015,1

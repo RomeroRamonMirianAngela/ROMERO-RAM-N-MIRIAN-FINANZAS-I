@@ -1,5 +1,5 @@
-variable_exogena,correlacion_parcial,estadistico_t,p_valor,n,variables_control,p_valor_ajustado_holm,significativo_5pct
-EMBIG Perú,0.7616,72.7643,0,3838,"Tasa de fondos federales, Tesoro EE. UU. 2 años, Tesoro EE. UU. 10 años",0,Sí
-Tasa de fondos federales,-0.3256,-21.3221,0,3838,"EMBIG Perú, Tesoro EE. UU. 2 años, Tesoro EE. UU. 10 años",0,Sí
-Tesoro EE. UU. 2 años,0.4137,28.1332,0,3838,"EMBIG Perú, Tasa de fondos federales, Tesoro EE. UU. 10 años",0,Sí
-Tesoro EE. UU. 10 años,0.5141,37.104,0,3838,"EMBIG Perú, Tasa de fondos federales, Tesoro EE. UU. 2 años",0,Sí
+variable,correlacion_parcial,estadistico_t,p_valor,n,p_valor_holm,significativo_5pct
+EMBIG Perú (p.p.),0.76162,72.76432,0,3838,0,Sí
+Tasa de fondos federales (%),-0.32563,-21.32211,0,3838,0,Sí
+Tesoro EE. UU. 2 años (%),0.4137,28.13322,0,3838,0,Sí
+Tesoro EE. UU. 10 años (%),0.51406,37.10401,0,3838,0,Sí

@@ -1,0 +1,5 @@
+prueba,hipotesis_nula,estadistico,p_valor,decision_5pct
+Breusch-Pagan,Homocedasticidad,339.5854,3.1076999999999996e-72,Rechazar H0
+Breusch-Godfrey (1 rezago),Ausencia de autocorrelación hasta rezago 1,3665.8627,0,Rechazar H0
+Breusch-Godfrey (5 rezagos),Ausencia de autocorrelación hasta rezago 5,3666.7194,0,Rechazar H0
+Jarque-Bera,Normalidad de los residuos,1.6396,0.44052,No rechazar H0

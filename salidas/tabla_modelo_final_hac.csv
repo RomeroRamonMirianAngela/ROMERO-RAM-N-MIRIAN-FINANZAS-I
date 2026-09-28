@@ -1,0 +1,6 @@
+variable,coeficiente,error_estandar_hac,estadistico_t,p_valor,significancia
+Constante,1.38013,0.10787,12.79425,9.8627e-37,***
+EMBIG Perú,1.70144,0.06593,25.80773,1.4873999999999996e-135,***
+Tasa de fondos federales,0.21583,0.01854,11.6423,8.2399e-31,***
+Spread Tesoro 2A - Fed,0.53854,0.04359,12.35593,2.0289e-34,***
+Tesoro EE. UU. 10 años,0.45103,0.03067,14.70488,1.1654e-47,***

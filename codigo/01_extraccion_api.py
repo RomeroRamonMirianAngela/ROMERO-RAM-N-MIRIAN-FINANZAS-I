@@ -1,10 +1,6 @@
-# =============================================================================
-# DATOS DE IDENTIFICACIÓN DEL TRABAJO
-# =============================================================================
 # Nombres y Apellidos completos: ROMERO RAMÓN MIRIAN ANGELA
 # Código de matrícula: 2024200523C
-# Tema y número del temario:
-# Tema 37 - Política monetaria de la Reserva Federal y bonos soberanos peruanos
+# Tema y número del temario: Tema 37 - Política monetaria de la Reserva Federal y bonos soberanos peruanos
 # Fecha de extracción: 2026-09-24
 # =============================================================================
 

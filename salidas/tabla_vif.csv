@@ -1,0 +1,9 @@
+modelo,variable,vif
+Parametrización original,embig_peru_pp_w,1.1075
+Parametrización original,tasa_fondos_federales,14.0405
+Parametrización original,tesoro_2a,16.3766
+Parametrización original,tesoro_10a,2.8141
+Parametrización final,embig_peru_pp_w,1.1075
+Parametrización final,tasa_fondos_federales,4.1626
+Parametrización final,spread_tesoro2_fed,2.0272
+Parametrización final,tesoro_10a,2.8141
